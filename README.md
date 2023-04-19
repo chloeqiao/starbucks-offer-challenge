@@ -3,7 +3,7 @@ This is the capstone project for AWS MLE NadoDegree. The main target is to make 
 ### Project Motivation
 The movitation of choosing this project is to build a machine learning model to solve real business problem efficiently and operationize the solution. Data in this project is interesting to manipulate with, and I wanted to predict the offer success given the customer/offer/transaction data. 
 ### Contents
-Check `Starbucks_Project_Report` for all details. There are two Jupyter notebooks, `data_analysis_and_processing.ipynb` and `train_and_deploy.ipynb`, and you can find html version as well. The first one is for data analysis and processing, including one basline model, it can run locally or on AWS Sagemaker. The second one runs on AWS Sagemaker, which train XGBoost classifier and deploy an endpoint. You can also find sagemaker profiler report and xgboost training report in this repo. </br> 
+Check `Proposal` for initial proposal of this project, and all details can be found in `Starbucks_Project_Report`. There are two Jupyter notebooks, `data_analysis_and_processing.ipynb` and `train_and_deploy.ipynb`, and you can find html version as well. The first one is for data analysis and processing, including one basline model, it can run locally or on AWS Sagemaker. The second one runs on AWS Sagemaker, which train XGBoost classifier and deploy an endpoint. You can also find sagemaker profiler report and xgboost training report in this repo. </br> 
 There are three original json files provided by the program. Please unzip `data.zip` to extract. 
 ### Libraries needed
 pandas, numpy, json, sklearn, os, boto3, s3fs, datetime, sagemaker
